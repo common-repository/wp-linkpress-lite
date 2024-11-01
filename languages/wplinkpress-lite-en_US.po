@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-03-24 18:13+0530\n"
+"PO-Revision-Date: 2021-03-24 18:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html_e\n"
+"X-Poedit-SearchPath-0: admin\n"
+"X-Poedit-SearchPath-1: admin/templates\n"
+"X-Poedit-SearchPath-2: includes\n"
+"X-Poedit-SearchPath-3: includes/api\n"
+"X-Poedit-SearchPath-4: templates\n"
+"X-Poedit-SearchPath-5: admin/templates/wplinkpress-lite-admin-settings-"
+"display.php\n"
+"X-Poedit-SearchPath-6: admin/templates/tabs/authorize-linkedin.php\n"
+"X-Poedit-SearchPath-7: admin/templates/tabs/comments-moderate.php\n"
+"X-Poedit-SearchPath-8: includes/api/class-wplinkpress-lite-api.php\n"
+"X-Poedit-SearchPath-9: includes/class-wplinkpress-lite-core.php\n"
+"X-Poedit-SearchPath-10: includes/class-wplinkpress-lite-frontend.php\n"
+"X-Poedit-SearchPath-11: includes/wplinkpress-lite-functions.php\n"
+"X-Poedit-SearchPath-12: templates/comments-form.php\n"
+"X-Poedit-SearchPath-13: wplinkpress-lite.php\n"
+
+#: admin/templates/tabs/comments-moderate.php:3
+msgid "Moderation tool is available in the Pro version of WP LinkPress"
+msgstr ""
+
+#: admin/wplinkpress-lite-admin-actions.php:28
+msgid "WP LinkPress Comments"
+msgstr ""
+
+#: admin/wplinkpress-lite-admin-actions.php:42
+msgid "Enable comments with LinkedIn by WP Linkpress"
+msgstr ""
+
+#: admin/wplinkpress-lite-admin-actions.php:84
+msgid "Authorize"
+msgstr ""
+
+#: admin/wplinkpress-lite-admin-actions.php:86
+msgid "Comments Moderation"
+msgstr ""
+
+#: admin/wplinkpress-lite-admin-settings.php:39
+msgid "WP LinkPress Lite Settings"
+msgstr ""
+
+#: admin/wplinkpress-lite-admin-settings.php:56
+msgid "Linkedin APP Details"
+msgstr ""
+
+#: admin/wplinkpress-lite-admin-settings.php:63
+msgid "Client ID"
+msgstr ""
+
+#: admin/wplinkpress-lite-admin-settings.php:71
+msgid "Client Secret"
+msgstr ""
+
+#: admin/wplinkpress-lite-admin-settings.php:79
+msgid "Redirect URL"
+msgstr ""
+
+#: admin/wplinkpress-lite-admin-settings.php:107
+msgid "Copy & paste the redirect url into your App page settings"
+msgstr ""
+
+#: admin/wplinkpress-lite-admin-settings.php:113
+msgid "Please refer the following link to create a LinkedIn Application"
+msgstr ""
+
+#: templates/comments-form.php:32
+msgid "Comments"
+msgstr ""
+
+#: templates/comments-form.php:37
+msgid "Add a comment..."
+msgstr ""
+
+#: templates/comments-form.php:45
+msgid "Share on activity feed"
+msgstr ""
+
+#: templates/comments-form.php:50
+msgid "Post with Linkedin"
+msgstr ""
+
+#: templates/comments-form.php:51
+msgid "Not"
+msgstr ""
+
+#: templates/comments-form.php:51
+msgid "Logout"
+msgstr ""
+
+#: templates/comments-form.php:53
+msgid "Post with LinkedIn"
+msgstr ""
+
+#: templates/comments-form.php:86
+msgid "Powered by WP LinkPress"
+msgstr ""
+
+#: wplinkpress-lite.php:31
+msgid "Authorizing Linkedin Access"
+msgstr ""
+
+#: wplinkpress-lite.php:32
+msgid "Please wait, authorization is under process"
+msgstr ""
+
+#: wplinkpress-lite.php:144
+msgid "WPLinkPRess Lite database update is required"
+msgstr ""
+
+#: wplinkpress-lite.php:152
+msgid "The plugin WPLinkPress Lite has been updated, excellent!"
+msgstr ""

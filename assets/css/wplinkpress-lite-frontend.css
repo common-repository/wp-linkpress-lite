@@ -1,0 +1,177 @@
+  /* Add your CSS code here */ 
+
+  .ui.wplinkpress.comments { font-size: .92857143rem;}
+
+  .ui.dividing.header { padding-bottom: .21428571rem; border-bottom: 1px solid rgba(34,36,38,.15); }
+
+  .ui.dividing.footer {border-top: 1px solid rgba(34,36,38,.15);}
+
+  .ui.footer {border:none;margin:calc(2rem - .14285714em) 0 1rem;padding:0 0;}
+
+  h3.ui.header { font-size: 1.28571429rem; }
+
+  .ui.header{border:none;margin:calc(2rem - .14285714em) 0 1rem;padding:0 0;font-family:Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;font-weight:700;line-height:1.28571429em;text-transform:none;color:rgba(0,0,0,.87)}
+
+  .ui.header:first-child {margin-top: -.14285714em;}
+
+  .ui.comments .comment {position:relative; background: 0 0; margin: .5em 0 0; padding: .5em 0 0; border: none; border-top: none; line-height: 1.2;}
+
+  /*.new-comment { display: flex; }*/
+
+  .ui.comments .comment .avatar { display:block; width: 2.5em; height: auto; float: left; margin: .2em 0 0;}
+
+  .ui.comments .comment .avatar img, .ui.comments .comment img.avatar { display: block; margin: 0 auto; width:100%; height: 100%; border-radius:0.5rem;}
+
+  /*.ui.comments .new-comment>.pre-content { display: flex; margin-left: 5px !important; width: 100%; }*/
+  .ui.comments .comment>.avatar~.content {
+    margin-left: 3.5em
+  }
+
+  .ui.comments .comment>.content { display: block; }
+
+  .ui.comments .comment>.content > button { margin-left: 5px; }
+
+  .ui.comments .comment a.author { cursor: pointer;  pointer-events: none; text-decoration: none; }
+
+  .ui.comments .comment .author {font-size: 1em; color: rgba(0,0,0,.87); font-weight:700;}
+
+  .ui.comments .comment .metadata{display: inline-block; margin-left: .5em; color: rgba(0,0,0,.4); font-size: .875em; float: right;}
+
+  .ui.comments .comment .metadata>:last-child {margin-right: 0;}
+
+  .ui.comments .comment .metadata>*{ display: inline-block; margin: 0 .5em 0 0; }
+
+  .ui.comments .comment .text { margin: .25em 0 .5em; font-size:1em; word-wrap: break-word; color: rgba(0,0,0,.87); line-height: 1.3;}
+  @media screen and (min-width: 768px) {
+  #add-wplinkpress-comment {margin-bottom: 5px;height: 150px;}
+  .bottom-layer {margin-top:15px;}
+  .bottom-layer > span {margin-left: 5px; color: gray;}
+  .wplinkpress_buttons{display: inline-grid;float: right;}
+  .wplinkpress-logout{text-align: right;font-size:12px; padding-top:3px;}
+  }
+
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 28px;
+    padding-top: 5px;
+  }
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  input:checked + .slider {
+    background-color: #0073aa;
+  }
+  input:focus + .slider {
+    box-shadow: 0 0 1px #0073aa;
+  }
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 28px;
+  }
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .wplinkpress_buttons > button {
+      vertical-align: middle;
+      line-height: 0.1;
+      height: 25px;
+      background: #0073aa;
+      transition: background 150ms ease-in-out;
+      border: none;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 0.88889em;
+      font-weight: 700;
+      padding: 0.76rem 1rem;
+      color: #fff;
+  }
+
+  .wplinkpress-brand {
+    float: right;
+    font-size: small;
+    color:rgba(34,36,38,.15);
+    margin-top: 5px;
+  }
+
+  .feed-share {
+    margin-bottom: 10px;
+  }
+
+  .input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 30px;
+  }
+
+  /* Style the form icons */
+  .wplp-icon {
+    background: #0073aa;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .input-container > .fa {
+    font-size: 21px !important;
+  }
+
+  /* Style the input fields */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+
+  .input-field:focus {
+    border: 2px solid #0073aa;
+  }
+
+.input-container > input {height: 30px !important;}
+
+.wplinkpress-logout > a {text-decoration: none !important; font-size: 12px; color:#0073aa;}
+
+button#authorize_comment:disabled,
+button#authorize_comment:disabled,
+button#post_comment[disabled],
+button#authorize_comment[disabled]{
+  background-color: #cccccc;
+  color: #fff;
+}
